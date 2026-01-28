@@ -3,34 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="flower.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Flowers</title>
 </head>
 <body>
-    <header class="flex justify-between  mx-[150px]">
+    <header class="header">
       <div>
-        <img src="assets/logo.png" alt="">
+        <img  src="assets/logo.png" alt="">
       </div>
-      <div>
-        <ul class="flex gap-12">
-            <li class="font-bold text-[#252432]"><a href="">Home</a></li>
-            <li class="text-[#8987A1]"><a href="">Shop</a></li>
-            <li class="text-[#8987A1]"><a href="">About us</a></li>
-            <li><a href=""><i class="fa-solid fa-cart-arrow-down"></i> Cart ($56)</a></li>
+      <div> 
+        <ul class="nav-list">
+            <li><a id="home" href="">Home</a></li>
+            <li><a id="shop" href="">Shop</a></li>
+            <li><a id="about" href="">About us</a></li>
+        <li><a id="cart" href=""><i class="fa-solid fa-cart-arrow-down"></i> Cart ($56)</a></li>
         </ul>
       </div>  
       </header>
-      <section class=" flex mx-[150px] mt-[120px]">
+
+      <!-- banner
+        -->
+      <section class="banner">
         <div>
-            <p class="font-bold text-5xl max-w-[570px]"><span class="">ALWAYS</span> <span class="text-[#E95A08]">FRESH FLOWERS</span>  </p>
-            <p class="text-[#8987A1] max-w-[570px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+            <h1 id="banner-title">ALWAYS <span class="fresh-flower">FRESH <br> FLOWERS</span> </h1>
+            <p class="banner-descript text-gray" >Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
         </div>
         <div>
-            <img src="assets/hero-flower.png" alt="">
+            <img class="hero-img" src="assets/hero-flower.png" alt="">
         </div>
       </section>
 
+      <!-- our plants -->
+       <div class="plant-gallery text-center">
+        <div class="gallery-title">
+            <span class="our">Our</span> Plants
+            
+        </div>
+        <p class="gallery-intro text-gray">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers.</p>
+    </div>
+
+       <!-- cards -->
+        <div class="card-container">
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+        <div class="card">
+        <img class="card-img" src="assets/sample-flower-image.png" alt="" >
+        <p class="name-price"><span class="lily">Lily Blossom</span> <br> <span class="usd">20 USD</span></p>
+        <button class="add">ADD TO CART</button>
+       </div>
+       
+        
+       </div>
+       
+       <!-- plant lover -->
+        <section class="plant-lover">
+            
+               
+                <div class="gardener">
+                <img class="gardener-img" src="assets/flower-store.png" alt="">
+                <img class="badge" src="assets/trusted-badge.png" alt="" >
+                <div class="gardener-description">
+                    <h1 class="gardener-title">Flower & Plants <br> Lover</h1>
+                <ul class="gardener-facts">
+                    <li><p class="text-gray">Flowers enhance human well-being by reducing stress, boosting moods, and improving concentration, making them a natural remedy for enhancing mental and emotional health.</p></li>
+                    <li><p class="text-gray"> Their colors trigger the release of happiness hormones like serotonin and dopamine, while their scents can lower cortisol, improve sleep, and increase productivity. </p></li>
+                    <li><p class="text-gray">Flowers are stunning, vibrant components of nature that serve as essential reproductive parts of plants, often attracting pollinators with their scents and colors. Ranging in size from tiny blooms to large, complex structures, they are recognized for their beauty, fragrance, and diverse shapes.
+                    </p></li>
+                </ul>
+                </div>
+            </div>
+             
+        </section>
     
 </body>
 </html>

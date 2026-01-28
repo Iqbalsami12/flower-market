@@ -138,6 +138,97 @@
 .gardener-facts{
     font-size: 1.375rem;
 }
+.deals{
+    margin-top: 135px;
+    text-align: center;
+}
+.l-deals{
+    font-weight: bold;
+    font-size: 50px;
+}
+.latest{
+    color: #E95A08;
+}
+.deal-done{
+    font-size: 1.375rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* offer styles */
+.offers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-top: 120px;
+}
+.image-2{
+    margin-top: 20px;
+}
+
+.offer-3{
+    grid-column: span 2;
+    grid-row: span 2;
+   
+
+}
+.image-1,.image-2,.image-3{
+    border-radius: 8px;
+}
+
+.text-3{
+    position: absolute;
+    bottom: 70%;
+    left: 25%;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.link-3{
+    position: absolute;
+    bottom: 70%;
+    left: 40%;
+     color: white;
+    font-weight: 600;
+    font-weight: 1.75rem;
+}
+
+.offer-1,.offer-2,.offer-3{
+    position:relative ;
+}
+.text-1,.text-2{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.link-1,.link-2{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.off-1,.off-2,.off-3{
+    border-right: 3px solid white;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .header,.gallery-intro{
@@ -176,10 +267,26 @@
     .card-container{
         grid-template-columns: repeat(2,1fr);
         width: 100%;
-        
-        
+    }
+    
+    .badge{
+        display: none;
+    }   
+    .gardener-img{
+        width: 100%;
+    }
+    .gardener-description{
+        width: 100%;
+        margin-top: -30px;
+        margin-left: 5px;
         
     }
+    .gardener{
+        grid-template-columns: repeat(1,1fr);
+    } 
+        
+        
+    
 }
 
     

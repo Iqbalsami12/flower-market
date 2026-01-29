@@ -389,6 +389,9 @@ footer{
     footer{
         grid-template-columns: repeat(1,1fr);
     }
+    .social-media{
+        margin-top: 20px;
+    }
         
     
 }
